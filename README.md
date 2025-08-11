@@ -251,42 +251,7 @@ history = classifier.train_model(rf_training_data, gesture_labels, epochs=200)
 classifier.model.save("custom_gesture_model.h5")
 ```
 
-## Troubleshooting
 
-### Common Issues
-
-**Poor Signal Quality**
-- Check transducer coupling to skin
-- Verify adhesive layer integrity
-- Ensure proper skin contact pressure
-
-**Incorrect Thickness Measurements**
-- Validate transducer positioning over target muscle
-- Check for motion artifacts
-- Verify filtering parameters
-
-**Gesture Recognition Errors**
-- Ensure forearm position matches training data
-- Check for muscle fatigue effects
-- Validate RF signal preprocessing
-
-### Calibration Procedures
-
-```python
-# Diaphragm position calibration
-def calibrate_diaphragm_position():
-    """Find optimal transducer position"""
-    positions = scan_intercostal_spaces()
-    best_position = find_clearest_diaphragm_signal(positions)
-    return best_position
-
-# Gesture baseline calibration
-def calibrate_gesture_baseline():
-    """Establish relaxed hand baseline"""
-    relaxed_signals = collect_relaxed_hand_data(duration=30)
-    baseline = compute_baseline_features(relaxed_signals)
-    return baseline
-```
 
 ## Research References
 
