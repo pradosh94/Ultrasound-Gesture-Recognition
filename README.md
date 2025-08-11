@@ -150,26 +150,6 @@ joint_angles = gesture_results['joint_angles']
 print(f"Wrist pitch: {joint_angles[-2]:.1f}°")
 ```
 
-##  Scientific Background
-
-### Echomyography vs EMG
-
-| Feature | Echomyography | EMG |
-|---------|---------------|-----|
-| **Signal Source** | Ultrasound reflections | Electrical potentials |
-| **Penetration Depth** | 6+ cm | Surface only |
-| **Signal Stability** | High (active transmission) | Low (passive detection) |
-| **Spatial Resolution** | Sub-millimeter | Poor (electrode averaging) |
-| **Skin Preparation** | None required | Cleaning, gel, adhesives |
-| **Motion Artifacts** | Minimal | Significant |
-
-### Key Parameters
-
-- **Sampling Rate**: 12 MHz (Nyquist requirement for 4 MHz transducer)
-- **Frame Rate**: 50 Hz (sufficient for muscle dynamics)
-- **Signal Depth**: ~6.6 cm equivalent depth in tissue
-- **Frequency Range**: 2-6 MHz (optimal muscle imaging)
-
 ##  Usage Examples
 
 ### Diaphragm Monitoring Example
@@ -225,39 +205,7 @@ for rf_frame in realtime_rf_stream():
         robot_arm.grasp()
 ```
 
-##  Hardware Requirements
 
-### Transducer Specifications
-- **Frequency**: 4 MHz center frequency
-- **Size**: 4×4 mm² (diaphragm) or 0.5×4 mm² (forearm)
-- **Material**: Lead zirconate titanate (PZT) 1-3 composite
-- **Backing**: Silver epoxy composite for damping
-
-### Electronics
-- **ADC**: 12 MHz minimum sampling rate
-- **Amplifier**: Variable gain (RF signal conditioning)
-- **Microcontroller**: Signal processing and wireless transmission
-- **Power**: 400 mAh Li-Po battery (3+ hours operation)
-
-### Form Factor
-- **Size**: ~4×7×1 cm³ total system
-- **Weight**: <50g including battery
-- **Wireless**: Wi-Fi for data transmission
-- **Attachment**: Adhesive silicone layer (no ultrasound gel needed)
-
-## Performance Metrics
-
-### Diaphragm Monitoring Accuracy
-- **Correlation with commercial ultrasound**: R² > 0.95
-- **DTF measurement precision**: ±0.02
-- **Breathing mode classification**: >95% accuracy
-- **Real-time latency**: <20ms per frame
-
-### Gesture Recognition Performance
-- **Joint angle accuracy**: Mean error 7.9°
-- **Tracking degrees of freedom**: 13 simultaneous joints
-- **Response time**: 20ms (50 Hz frame rate)
-- **Depth penetration**: 6.6 cm equivalent
 
 ##  Clinical Applications
 
