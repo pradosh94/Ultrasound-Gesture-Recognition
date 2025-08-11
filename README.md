@@ -273,7 +273,7 @@ for rf_frame in realtime_rf_stream():
 - **Stroke recovery**: Motor function assessment
 - **Sports medicine**: Movement pattern analysis
 
-## 🔧 Customization & Extension
+## Customization & Extension
 
 ### Adding New Breathing Patterns
 ```python
