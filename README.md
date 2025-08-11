@@ -354,34 +354,12 @@ def calibrate_gesture_baseline():
    - Hand gesture recognition for prosthetics
    - Wearable device validation protocols
 
-## Contributing
 
-We welcome contributions to improve the system:
-
-1. **Signal Processing**: Enhanced filtering algorithms
-2. **Machine Learning**: Improved gesture recognition models
-3. **Clinical Applications**: New monitoring applications
-4. **Hardware Integration**: Support for different transducers
-
-### Development Setup
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest tests/
-
-# Run code quality checks
-black echomyography_system.py
-flake8 echomyography_system.py
-```
 
 ## License
 
 This project is licensed under the MIT License. See LICENSE file for details.
 
-##  Acknowledgments
-- Gao, Xiaoxiang, et al. "A wearable echomyography system based on a single transducer." Nature Electronics 7.11 (2024): 1035-1046.
 
 ---
 
