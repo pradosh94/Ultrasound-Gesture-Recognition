@@ -342,19 +342,7 @@ def calibrate_gesture_baseline():
 
 ## Research References
 
-1. **Primary Research**: Gao, X. et al. "A wearable echomyography system based on a single transducer." *Nature Electronics* 7, 1035–1046 (2024).
-
-2. **Technical Background**:
-   - Ultrasound physics and tissue interaction
-   - Signal processing for biomedical applications
-   - Deep learning for physiological signal analysis
-
-3. **Clinical Validation**:
-   - Diaphragm ultrasound in critical care
-   - Hand gesture recognition for prosthetics
-   - Wearable device validation protocols
-
-
+ **Primary Research**: Gao, X. et al. "A wearable echomyography system based on a single transducer." *Nature Electronics* 7, 1035–1046 (2024).
 
 ## License
 
