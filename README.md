@@ -1,6 +1,6 @@
 #  Wearable Echomyography System
 
-A comprehensive Python implementation of a wearable ultrasound-based muscle monitoring system, inspired by the research published in *Nature Electronics*: "A wearable echomyography system based on a single transducer."
+A comprehensive Python implementation of a wearable ultrasound-based muscle monitoring system, inspired by "A wearable echomyography system based on a single transducer." Nature Electronics 7.11 (2024): 1035-1046."
 
 ##  Overview
 
