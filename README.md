@@ -60,7 +60,7 @@ Wearable Echomyography System
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/pradosh94/Ultrasound-Gesture-Recognition)
 cd wearable-echomyography
 
 # Install dependencies
