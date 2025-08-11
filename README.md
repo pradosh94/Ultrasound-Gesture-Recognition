@@ -150,7 +150,7 @@ joint_angles = gesture_results['joint_angles']
 print(f"Wrist pitch: {joint_angles[-2]:.1f}°")
 ```
 
-## 🔬 Scientific Background
+##  Scientific Background
 
 ### Echomyography vs EMG
 
@@ -170,7 +170,7 @@ print(f"Wrist pitch: {joint_angles[-2]:.1f}°")
 - **Signal Depth**: ~6.6 cm equivalent depth in tissue
 - **Frequency Range**: 2-6 MHz (optimal muscle imaging)
 
-## 📊 Usage Examples
+##  Usage Examples
 
 ### Diaphragm Monitoring Example
 
@@ -245,7 +245,7 @@ for rf_frame in realtime_rf_stream():
 - **Wireless**: Wi-Fi for data transmission
 - **Attachment**: Adhesive silicone layer (no ultrasound gel needed)
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Diaphragm Monitoring Accuracy
 - **Correlation with commercial ultrasound**: R² > 0.95
